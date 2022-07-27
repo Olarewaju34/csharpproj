@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\chapter3\bin\Debug\net6.0\chapter3.exe
+C:\Users\HP\Desktop\chapter3\bin\Debug\net6.0\chapter3.deps.json
+C:\Users\HP\Desktop\chapter3\bin\Debug\net6.0\chapter3.runtimeconfig.json
+C:\Users\HP\Desktop\chapter3\bin\Debug\net6.0\chapter3.dll
+C:\Users\HP\Desktop\chapter3\bin\Debug\net6.0\chapter3.pdb
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.AssemblyInfo.cs
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.dll
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\refint\chapter3.dll
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.pdb
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\chapter3.genruntimeconfig.cache
+C:\Users\HP\Desktop\chapter3\obj\Debug\net6.0\ref\chapter3.dll
