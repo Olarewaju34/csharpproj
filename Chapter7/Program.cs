@@ -4,7 +4,7 @@ namespace Chapter7
     class Program
     {
 
-        static void Main(string[] args, int v)
+        static void Main(string[] args )
         {
 Console.WriteLine("------------Question1-------------");
 int[] Myarray = new int [20];
@@ -35,16 +35,16 @@ Console.WriteLine("--------------------Question3--------------");
 char[]character1 =new char[3]; 
 char[] character = new char[3];
 bool character2 = false;
-for (int a = 0; a < character.Length; a++)
+for (int c = 0; c < character.Length; c++)
 {
-    Console.Write("Element of index {0} is: ",a);
-    character[a] = Convert.ToChar(Console.ReadLine());  
+    Console.Write("Element of index {0} is: ",c);
+    character[c] = Convert.ToChar(Console.ReadLine());  
             
 }
-for (int b = 0; b < character1.Length; b++)
+for (int d = 0; d < character1.Length; d++)
 {
-    Console.Write("Element of index {0} is: ",b);
-character1[b] =  Convert.ToChar(Console.ReadLine());  
+    Console.Write("Element of index {0} is: ",d);
+character1[d] =  Convert.ToChar(Console.ReadLine());  
 }
 
             if (character.Length > character1.Length) Console.WriteLine("Second array is lexicographicaly first.");
@@ -91,24 +91,24 @@ for (int i = 0; i < NewArray.Length; i++)
         Console.WriteLine($"the Maximal Sequence is {NewArray[2]},{NewArray[3]},{NewArray[4]}");
     }
     Console.WriteLine("---------------Question5----------------");
-int [] Array = new int [5];
+int [] Arrays = new int [5];
 
-for (int i = 0; i < Array.Length; i++)
+for (int i = 0; i < Arrays.Length; i++)
 {
   Console.Write("Enter elements of an arrary: ");
-  Array[i]= Convert.ToInt32(Console.ReadLine()); 
+  Arrays[i]= Convert.ToInt32(Console.ReadLine()); 
  }
- if (Array[0]<Array[1]&&Array[0]<Array[2])
+ if (Arrays[0]<Arrays[1]&&Arrays[0]<Arrays[2])
  {
-  Console.WriteLine($"{Array[0]},{Array[1]},{Array[2]}");  
+  Console.WriteLine($"{Arrays[0]},{Arrays[1]},{Arrays[2]}");  
  }
-else if (Array[1]<Array[2]&&Array[1]<Array[3])
+else if (Arrays[1]<Arrays[2]&&Arrays[1]<Arrays[3])
 {
-   Console.WriteLine($"{Array[1]},{Array[2]},{Array[3]}") ;
+   Console.WriteLine($"{Arrays[1]},{Arrays[2]},{Arrays[3]}") ;
 }
 else 
 {
-    Console.WriteLine($"{Array[2]},{Array[3]},{Array[4]}");
+    Console.WriteLine($"{Arrays[2]},{Arrays[3]},{Arrays[4]}");
 }
 Console.WriteLine("------------Question6-------------");
 
@@ -174,15 +174,42 @@ for (int i = 0; i < numbers.GetLength(0); i++)
         Console.Write(  numbers[i,j] + " ");
       
      }
+      Console.WriteLine();
      Console.WriteLine();
-    }
-    Console.WriteLine("---------------Question16-------------------");
-    int [] sortedarrays = new int [5];
-    for (int i = 0; i <sortedarrays.Length; i++)
-    {
-      Console.Write("Element at index {0}: ",i);
-      sortedarrays[i]= Convert.ToInt32(Console.ReadLine());
-    }
+    
    }
+   Console.WriteLine("--------------Question17------------");
+   
+ int [] array1 = new int[3];
+int []secondarray = new int[3];
+int [] thirdarray = new int[6];
+int a,b;
+for ( a = 0; a <array1.Length; a++)
+{
+  Console.Write("Element {0} -",a);
+  array1[a]= Convert.ToInt32(Console.ReadLine());
+}
+for ( a = 0;a <secondarray.Length; a++)
+{
+  Console.Write("Element {0} -",a);
+secondarray[a]= Convert.ToInt32(Console.ReadLine());
+}
+
+for ( a = 0; a <array1.Length; a++)
+{
+  thirdarray[a]= array1[a];
+}
+
+for ( b =0; b <secondarray.Length; b++)
+{
+  thirdarray[a]= secondarray[b];
+  a++;
+}
+Array.Sort(thirdarray);
+for ( a = 0; a <thirdarray.Length; a++)
+{
+  Console.Write("{0} ",thirdarray[a]);
+ }
+        }
   }
 }
